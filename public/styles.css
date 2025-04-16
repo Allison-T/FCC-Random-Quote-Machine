@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.quote-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-author {
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.buttons {
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  float: left;
+  padding: 8px 0 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 35px;
+  width: 80px;
+}
+
+#new-quote {
+  float: right;
+  padding: 8px 0 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: 5px;
+  height: 35px;
+  width: 100px;
+}
